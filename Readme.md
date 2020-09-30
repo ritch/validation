@@ -34,6 +34,7 @@ Checks if a value exists.
     validation.exists('foobar')                   // true
     validation.exists(function() {})              // true
     validation.exists(0)                          // true
+    validation.exists(0n)                         // true
     validation.exists(-1)                         // true
     validation.exists(null)                       // false
     validation.exists(undefined)                  // false

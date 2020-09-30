@@ -47,11 +47,12 @@ exports.isType = function (value, type) {
  * 
  *     validation.exists('foobar')  // true
  *     validation.exists(0)         // true
+ *     validation.exists(0n)        // true
  *     validation.exists(null)      // false
  *     validation.exists(undefined) // false
  * 
  */
 
 exports.exists = function (value) {
-  return !!(value || value === 0);
+  return !!(value || value === 0 || value === 0n);
 }
