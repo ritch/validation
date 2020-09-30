@@ -2,7 +2,7 @@
   "author": "Ritchie Martori <ritchie@deployd.com> (deployd.com)",
   "name": "validation",
   "description": "simple validation functions",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git://github.com/ritch/validation.git"
