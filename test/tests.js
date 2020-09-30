@@ -2,7 +2,7 @@ var validation = require('../')
   , expect = require('chai').expect;
 
 describe('validation', function() {
-  describe('.isValid(value, description)', function () {
+  describe('.isType(value, description)', function () {
     function example(type, value, valid) {
       var v = validation.isType(value, type);
       if(v != valid) {

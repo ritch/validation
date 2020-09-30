@@ -13,7 +13,7 @@
  */
  
 exports.isType = function (value, type) {
-  if(typeof type != 'string') throw Error('bad arguments when calling validation.isValid');
+  if(typeof type != 'string') throw Error('bad arguments when calling validation.isType');
   
   switch(type) {
     case 'date':
